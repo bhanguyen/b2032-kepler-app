@@ -1,0 +1,10 @@
+[project]
+name = "b2032-kepler-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "keplergl-cli>=0.3.3",
+    "pandas>=2.3.0",
+]

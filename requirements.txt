@@ -1,2 +1,4 @@
-keplergl_cli
-pandas
+pandas==1.5.3
+keplergl-cli==0.3.3
+# Ensure compatibility with Python 3.11
+# Add other dependencies as needed

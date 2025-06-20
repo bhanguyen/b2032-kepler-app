@@ -1,4 +1,12 @@
 pandas==1.5.3
+numpy==1.23.2
+keplergl>=0.3.7
 keplergl-cli==0.3.3
-# Ensure compatibility with Python 3.11
-# Add other dependencies as needed
+ipykernel
+duckdb
+fastapi
+uvicorn[standard]
+python-multipart
+itsdangerous==2.0.1
+geopandas==0.14.3
+dotenv>=0.9.9

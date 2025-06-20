@@ -1,10 +1,69 @@
-# Python-generated files
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[oc]
+*.py[cod]
+*.so
+
+# Distribution / packaging
 build/
 dist/
 wheels/
 *.egg-info
+*.manifest
+*.spec
 
 # Virtual environments
-.venv
+.venv/
+venv/
+env/
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.*
+
+# IDE files
+.vscode/
+.idea/
+
+# FastAPI-specific files
+instance/
+*.db
+*.sqlite3
+
+# Test coverage reports
+.coverage
+*.cover
+coverage.xml
+htmlcov/
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# Docker files
+docker-compose.override.yml
+*.dockerfile
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# Python egg files
+*.egg
+# Cython debug symbols
+cython_debug/
+
+# data files
+data/
